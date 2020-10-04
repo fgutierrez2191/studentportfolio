@@ -9,12 +9,12 @@
 ​
   <body>
     <!-- Site Header -->
-    <header>
       <!-- h1: The most important headline -->
+      <header>
       <h1>Felix Gutierrez</h1>
-      <a href="#">A Little Bit About Me</a>
-      <a href="#">My Work</a>
-      <a href="#">Contact Me</a>
+      <a href="#about-section">A Little Bit About Me</a>
+      <a href="#grid">My Work</a>
+      <a href="#menu-outer">Contact Me</a>
     </header>
 ​
     <main>
@@ -25,44 +25,47 @@
         <h2>Aspiring Full Stack Web developer, Bootcamp Student at Ut Austin</h2>
         </div>
 
-        <div class="about-section">
+        <div class="about-section">                        
           <h1>About Me</h1>
+          <img src="personalprofilepic.jpg" alt="Felix Gutierrez" id="myimage"/> 
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus enim eveniet assumenda nam aliquid officiis vero, eaque dolor accusantium nisi.</p>
-        </div>
-        <div>
-        <!-- Image with link -->
-        <img src="https://placehold.it/200x200" alt="Felix Gutierrez" id="myimage"/>
         </div>
       </section>
       <!-- Work-Section-->
       <div class="work">
-        <h1>My Work</h1>
+        <h1 id="mywork">My Work</h1>
       </div> 
       <section id="grid" class="work-grid">
-        <div class="work-grid">
-          <div class="work-grid-item-1">One</div>
-          <div class="work-grid-item-2">Two</div>
-          <div class="work-grid-item-3">Three</div>
-          <div class="work-grid-item-4">Four</div>
-          <div class="work-grid-item-5">Five</div>
+          <div class="work-grid">
+          <div class="work-grid-item-1">Church Websites I've Built</div>
+          <div class="work-grid-item-2">Military Websites></div>
+          <div class="work-grid-item-3">Trucking Company</div>
+          <div class="work-grid-item-4">Resturants that hired me!</div>
+          <div class="work-grid-item-5">Breweries </div>
         </div>
-
       </section>
 ​
       <!-- Section 2: Contact Info -->
       <section>
+        <div class= "contact-me">
         <!-- h2: Tier-2 Headline -->
-        <h2>Contact Info</h2>
+        <h2>Contact Me</h2>
+        </div>
 ​
         <!-- Unordered list -->
-        <ul>
+        <div id="menu-outer">
+          <div class="table">
+        <ul id="horizontal-list">
           <li>
             <strong>Email:</strong>
-            <a href="#">fgutierrez2191@icloud.com</a>
+            <a href="mailto:fgutierrez2191@icloud.com">fgutierrez2191@icloud.com</a>
           </li>
-          <li><strong>Github:</strong> <a href="#">https://github.com/fgutierrez2191</a></li>
-          <li><strong>LinkedIn:</strong> <a href="#">https://www.linkedin.com/in/felix-gutierrez-b3359a1b6/</a></li>
+          <li><strong>Github:</strong> <a href="https://github.com/fgutierrez2191">Github</a></li>
+          <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/felix-gutierrez-b3359a1b6/">LinkedIn</a></li>
         </ul>
+        </div>
+        </div>
+        </div>
       </section>
     </main>
   </body>
