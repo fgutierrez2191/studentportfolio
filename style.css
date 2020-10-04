@@ -89,9 +89,7 @@ p {
     background-image: url(notredame2.jpg);
     border: solid;
     color: black;
-
-
-  }
+}
   
   .work-grid-item-2{
     width: 160px;
@@ -148,6 +146,23 @@ p {
   ul#horizontal-list li{
       display: inline;
   }
+
+  @media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+
+    /* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    section {
+      padding: 30px 15px;
+    }
 
   
 
