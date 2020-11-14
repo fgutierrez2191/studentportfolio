@@ -123,6 +123,14 @@ p {
     color: black;
   }
 
+  .work-grid-item-6{
+    width: 160px;
+    height: 100px;
+    background-image: url(dice2.jpg);
+    border: solid;
+    color: black;
+  } 
+
   .table{
       display:table;
       margin: 0 auto;
