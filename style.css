@@ -131,6 +131,14 @@ p {
     color: black;
   } 
 
+  .work-grid-item-7{
+    width: 160px;
+    height: 100px;
+
+    border: solid;
+    color: black;
+  } 
+
   .table{
       display:table;
       margin: 0 auto;
